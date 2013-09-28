@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://test.lvxudong.com/atom.xml" rel="self"/>
   <link href="http://test.lvxudong.com/"/>
-  <updated>2013-09-28T22:13:55+08:00</updated>
+  <updated>2013-09-28T22:44:36+08:00</updated>
   <id>http://test.lvxudong.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我的第一篇博客]]></title>
+    <link href="http://test.lvxudong.com/blog/2013/09/28/wo-de-di-pian-bo-ke/"/>
+    <updated>2013-09-28T22:41:00+08:00</updated>
+    <id>http://test.lvxudong.com/blog/2013/09/28/wo-de-di-pian-bo-ke</id>
+    <content type="html"><![CDATA[<h2>欢迎来到我的博客</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
