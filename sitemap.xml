@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://test.lvxudong.com/blog/2013/09/28/hello-world/</loc>
+        <lastmod>2013-09-28T22:10:55+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://test.lvxudong.com/robots.txt</loc>
+        <lastmod>2013-09-28T22:09:41+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://test.lvxudong.com/</loc>
+        <lastmod>2013-09-28T22:10:55+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://test.lvxudong.com/blog/archives/</loc>
+        <lastmod>2013-09-28T22:10:55+08:00</lastmod>
+    </url>
+</urlset>
