@@ -8,6 +8,7 @@ subtitle: 无证程序员.
 author: lvxudong
 simple_search: http://google.com/search
 description:
+subscribeemail: lvxudong@live.com
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -17,7 +18,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:lvxudong@live.com
+subscribe_email: lvxudong@live.com
 # RSS feeds can list your email address if you like
 email:
 
