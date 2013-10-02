@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://test.lvxudong.com/sitemap.xml 
+Sitemap: http://lvxudong.com/sitemap.xml 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[lvxudong's Blog]]></title>
-  <link href="http://test.lvxudong.com/atom.xml" rel="self"/>
-  <link href="http://test.lvxudong.com/"/>
-  <updated>2013-10-02T22:02:18+08:00</updated>
-  <id>http://test.lvxudong.com/</id>
+  <link href="http://lvxudong.com/atom.xml" rel="self"/>
+  <link href="http://lvxudong.com/"/>
+  <updated>2013-10-02T22:14:15+08:00</updated>
+  <id>http://lvxudong.com/</id>
   <author>
     <name><![CDATA[lvxudong]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://test.lvxudong.com/blog/2013/09/28/hello-world/"/>
+    <link href="http://lvxudong.com/blog/2013/09/28/hello-world/"/>
     <updated>2013-09-28T22:10:00+08:00</updated>
-    <id>http://test.lvxudong.com/blog/2013/09/28/hello-world</id>
+    <id>http://lvxudong.com/blog/2013/09/28/hello-world</id>
     <content type="html"><![CDATA[<h2>Hello World</h2>
 ]]></content>
   </entry>
