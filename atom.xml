@@ -4,7 +4,7 @@
   <title><![CDATA[lvxudong's Blog]]></title>
   <link href="http://lvxudong.com/atom.xml" rel="self"/>
   <link href="http://lvxudong.com/"/>
-  <updated>2014-03-01T13:26:25+08:00</updated>
+  <updated>2014-03-01T13:53:12+08:00</updated>
   <id>http://lvxudong.com/</id>
   <author>
     <name><![CDATA[lvxudong]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu使用Terminator作为默认终端]]></title>
+    <link href="http://lvxudong.com/blog/2014/03/01/ubuntu-change-default-terminal/"/>
+    <updated>2014-03-01T13:44:00+08:00</updated>
+    <id>http://lvxudong.com/blog/2014/03/01/ubuntu-change-default-terminal</id>
+    <content type="html"><![CDATA[<h3>首先安装Terminator</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install terminator</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>安装dconf-tools</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install dconf-tools</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>配置为默认终端</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+</span><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>开始享有功能强大的Terminator吧</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>

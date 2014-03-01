@@ -5,12 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - lvxudong's Blog</title>
+  <title>Ubuntu使用Terminator作为默认终端 - lvxudong's Blog</title>
   <meta name="author" content="lvxudong">
 
   
-  <meta name="description" content="Hello World
-">
+  <meta name="description" content="首先安装Terminator 1
+sudo apt-get install terminator 安装dconf-tools 1
+sudo apt-get install dconf-tools 配置为默认终端 1
+2
+gsettings set org.gnome.desktop.default &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://lvxudong.com/blog/2013/09/28/hello-world">
+  <link rel="canonical" href="http://lvxudong.com/blog/2014/03/01/ubuntu-change-default-terminal">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="lvxudong's Blog" type="application/atom+xml">
@@ -72,7 +75,7 @@
   
   <header>
     
-      <h1 class="entry-title">Hello World</h1>
+      <h1 class="entry-title">Ubuntu使用Terminator作为默认终端</h1>
     
     
       <p class="meta">
@@ -88,14 +91,34 @@
   
 
 
-<time datetime="2013-09-28T22:10:00+08:00" pubdate data-updated="true">Sep 28<span>th</span>, 2013</time>
+<time datetime="2014-03-01T13:44:00+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2>Hello World</h2>
+<div class="entry-content"><h3>首先安装Terminator</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install terminator</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>安装dconf-tools</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install dconf-tools</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>配置为默认终端</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+</span><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>开始享有功能强大的Terminator吧</h3>
 </div>
 
 
@@ -118,7 +141,7 @@
   
 
 
-<time datetime="2013-09-28T22:10:00+08:00" pubdate data-updated="true">Sep 28<span>th</span>, 2013</time>
+<time datetime="2014-03-01T13:44:00+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
       
 
 
@@ -133,8 +156,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/09/28/hello-world/" title="Previous Post: Hello World">&laquo; Hello World</a>
       
-        <a class="basic-alignment right" href="/blog/2014/03/01/ubuntu-change-default-terminal/" title="Next Post: Ubuntu使用Terminator作为默认终端">Ubuntu使用Terminator作为默认终端 &raquo;</a>
       
     </p>
   </footer>

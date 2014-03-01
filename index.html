@@ -9,8 +9,11 @@
   <meta name="author" content="lvxudong">
 
   
-  <meta name="description" content="Hello World
-">
+  <meta name="description" content="首先安装Terminator 1
+sudo apt-get install terminator 安装dconf-tools 1
+sudo apt-get install dconf-tools 配置为默认终端 1
+2
+gsettings set org.gnome.desktop.default &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +78,62 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/03/01/ubuntu-change-default-terminal/">Ubuntu使用Terminator作为默认终端</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-01T13:44:00+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>首先安装Terminator</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install terminator</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>安装dconf-tools</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install dconf-tools</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>配置为默认终端</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+</span><span class='line'>gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>开始享有功能强大的Terminator吧</h3>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/09/28/hello-world/">Hello World</a></h1>
     
     
@@ -117,6 +176,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/03/01/ubuntu-change-default-terminal/">Ubuntu使用Terminator作为默认终端</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/09/28/hello-world/">Hello World</a>
